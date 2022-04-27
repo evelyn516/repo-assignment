@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
 
+#username {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(14, 140, 115);
+}
+
 #click {
     font-size: 30px;
     text-align: center;
@@ -21,11 +27,6 @@
     text-decoration: none;
     color: black;
 }
-
-/* .repo-show p > a {
-    color: rgb(17, 120, 110);
-    text-decoration: underline;
-} */
 
 .repo-show:hover {
     box-shadow: 1px 3px 5px rgba(17, 221, 180);
