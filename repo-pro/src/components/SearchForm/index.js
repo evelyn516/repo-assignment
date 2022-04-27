@@ -18,8 +18,7 @@ function SearchForm({ getResult }) {
         <>
         <form onSubmit={handleSubmit} aria-label="form">
             <input id='searchEntry' onChange={updateInput} type='text' placeholder='search user here' aria-label="user"/>
-            <input id='formSubmitButton' type='submit' value="Search"/>          
-            
+            <input id='formSubmitButton' type='submit' value="Search"/> 
         </form>
         </>
     )
