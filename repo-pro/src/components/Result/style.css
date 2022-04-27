@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+
+#username {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(14, 140, 115);
+}
+
+#click {
+    font-size: 30px;
+    text-align: center;
+}
+
+.repo-data {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+    font-family: 'Radio Canada';
+    /* text-align: left; */
+}
+
+.repo-show {
+    padding: 10px;
+}
+
+.repo-show a {
+    text-decoration: none;
+    color: black;
+}
+
+.repo-show:hover {
+    box-shadow: 1px 3px 5px rgba(17, 221, 180);
+}
+
+.repo-data h3 {
+    font-size: 25px;
+    color: rgb(39, 177, 150);
+    margin-bottom: 8px;
+}
