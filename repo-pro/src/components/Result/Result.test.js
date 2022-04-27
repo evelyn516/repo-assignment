@@ -3,17 +3,31 @@ import { screen, render } from '@testing-library/react';
 
 describe('Result', () => {
     beforeEach(() => {
-        const resultStub = { sunrise: "2:21:09 AM", sunset: "2:24:50 PM" };
+        const resultStub = { 
+            name: 'Hello',
+            description: 'world',
+            id: 1,
+            forks_count: 5,
+            watchers_count: 6,
+            created_at: 2022-3-4,
+            updated_at: 2022-3-5,
+            clone_url: 'www.github.com'
+         };
         render(<Result result={resultStub}/>);
     });
 
-    test('it shows the sunrise results', async () => {
-        const sunrise = await screen.findByText("2:21:09 AM");
-        expect(sunrise).toBeInTheDocument();
+    test('it has an id of repo.id', async () => {
+        /*  */
     });
 
-    test('it shows the sunset results', async () => {
-        const sunset = await screen.findByText("2:24:50 PM");
-        expect(sunset).toBeInTheDocument();
+    test('it displays repo name', async () => {
+        const name = await screen.findByText("Hello");
+        expect(name).toBeInTheDocument();
     });
+
+    test('it displays repo description', async () => {
+        const description = await screen.findByText("world");
+        expect(description).toBeInTheDocument();
+    });
+ 
 });

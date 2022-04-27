@@ -5,9 +5,11 @@ function Header() {
   return (
     <div>
         <header>
-            <h1 id='Title'>Repo Tracker</h1>
-            <button id='dark'>Dark Mode</button>
-            <button id='light'>Light Mode</button>
+          <div className='flexbox-container'>
+            <h1 className='title'>Repo Tracker</h1>
+            <button className='light push'>Light Mode</button>
+            <button className='dark '>Dark Mode</button>
+          </div>  
         </header>
     </div>
   )
