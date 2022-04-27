@@ -1,6 +1,7 @@
 import React from 'react'
+import './style.css'
 
-function Home() {
+function Header() {
   return (
     <div>
         <header>
@@ -12,4 +13,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Header
