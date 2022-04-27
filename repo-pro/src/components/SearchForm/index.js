@@ -2,19 +2,24 @@ import React, { useState } from 'react';
 /* this getResult not linked to actions as it is a prop? */
 
 function SearchForm({ getResult }) {
+    const [ user, setUser ] = useState("")
    
-    const handleSubmit = e => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        getResult(user);
     }
-    
-    const input = e.target.value {
 
+    const updateInput = (e) => {
+        const input = e.target.value 
+        setUser(input);
     }
 
     return (
         <>
-        <form>
-            <input id='searchEntry' type='text' placeholder='search user here' label="user"/>
-            <input id='formSubmitButton' type='submit' value="Search"/>
+        <form onSubmit={handleSubmit} aria-label="form">
+            <input id='searchEntry' onChange={updateInput} type='text' placeholder='search user here' aria-label="user"/>
+            <input id='formSubmitButton' type='submit' value="Search"/>          
+            
         </form>
         </>
     )
