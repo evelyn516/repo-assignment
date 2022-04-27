@@ -26,4 +26,3 @@ Run ```npm test``` to launch test suite.
 # Wins
 
 # Challenges
-
