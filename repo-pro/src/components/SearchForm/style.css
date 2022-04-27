@@ -1,1 +1,35 @@
+.search-box {
+    width: 50%;
+    padding: 10px;
+}
 
+#formSubmitButton {
+    margin-left: 3px;
+    background-color: #9ad8cc;
+    border-radius: 8px;
+    border-color: #9ad8cc;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#formSubmitButton:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+#searchEntry {
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: #9ad8cc;
+}
+
+@keyframes hoverShake {
+    0% {transform: skew(0deg,0deg);}
+    25% {transform: skew(5deg, 5deg);}
+    75% {transform: skew(-5deg, -5deg);}
+    100% {transform: skew(0deg,0deg);}
+}
+
+#searchEntry:hover {
+    animation: hoverShake 0.20s linear 3;
+}

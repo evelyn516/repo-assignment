@@ -15,12 +15,14 @@ function SearchForm() {
 
     return (
         <>
-            <div className='form'>
-                <form onSubmit={handleSubmit} aria-label="form">
-                    <input id='searchEntry' type='text' name="user" placeholder='search user here' aria-label="user"/>
-                    <input id='formSubmitButton' type='submit' value="submit"></input>
-                </form>
-            </div>
+            {/* leave this */}
+                <div className='search-box'>
+                    <form onSubmit={handleSubmit} aria-label="form">
+                        <input id='searchEntry' type='text' name="user" placeholder='search user here' aria-label="user"/>
+                        <input id='formSubmitButton' type='submit' value="submit"></input>
+                    </form>
+                </div>
+            {/* and this */}
 
             <Result username={user}/>
         </>
