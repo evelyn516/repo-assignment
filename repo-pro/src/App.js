@@ -7,7 +7,6 @@ function App() {
         <div id="app">
           <Header />
           <SearchForm />
-          <Result />
         </div>
     )
 }
