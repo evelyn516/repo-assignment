@@ -3,10 +3,12 @@
 ## Installation & Usage
 # Installation
 Clone or download the repo.
+cd into ```repo-pro```
 Open terminal and run ```npm install``` to install dependencies.
 
 # Usage
-Run ```npm run start``` to launch server.
+within repo-pro directory
+Run ```npm start``` to launch server.
 Run ```npm test``` to launch test suite.
 
 ## Planing
@@ -20,7 +22,9 @@ Run ```npm test``` to launch test suite.
 
 
 ## TO DO
-
+[] Styling
+[] Tests
+[] filter button- see if you can sort repos by creation date/update date
 
 ## Wins & Challenges
 # Wins

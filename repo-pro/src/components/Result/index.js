@@ -1,4 +1,5 @@
 import useFetch from "../useFetch";
+import "./style.css"
 
 import React from 'react';
 
