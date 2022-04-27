@@ -1,11 +1,11 @@
-import FetchData from "../FetchData";
+import useFetch from "../useFetch";
 
 import React, { useState } from 'react'
 
 const Result = () => {
 
-  const [username, setUsername] = useState('evelyn516');  
-  const { data: repos, isLoading, error } = FetchData(`https://api.github.com/users/${username}/repos`);
+  const [username, setUsername] = useState('Nowshad10'); 
+  const { data: repos, isLoading, error } = useFetch(`https://api.github.com/users/${username}/repos`);
   return (
         <div className="repo-data">
             { isLoading && <div>Loading...</div>}
