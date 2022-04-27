@@ -1,5 +1,5 @@
 import React from 'react';
-import { Result, SearchForm } from './components';
+import { SearchForm } from './components';
 import Header from './components/Header';
 
 function App() {
