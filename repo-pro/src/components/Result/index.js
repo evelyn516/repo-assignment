@@ -19,6 +19,7 @@ const Result = ({ username }) => {
                 <p>Description: {result.description}</p>
                 <p>Forks: {result.forks_count}</p>
                 <p>Watchers: {result.watchers_count}</p>
+                <p>Open Issues: {result.open_issues}</p>
                 <p>Created: {result.created_at.slice(0, 10)}</p>
                 <p>Last updated: {result.updated_at.slice(0,10)}</p>
                 </a>
