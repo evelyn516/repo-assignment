@@ -1,4 +1,4 @@
-# REACT Assignment - Lap 3 Code Project
+# REACT Assignment - Lap 3 Code Project - Feedback
 
 ### Collaborators:
 - [Evie Ball](https://github.com/evelyn516)
