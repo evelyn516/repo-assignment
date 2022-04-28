@@ -10,12 +10,12 @@ The aim of this 24 hour programming challenge was to create a GitHub repo tracke
 
 ## Installation & Usage
 
-# Installation
+### Installation
 - Clone or download the repo.
 - cd into ```repo-pro```
 - Open terminal and run ```npm install``` to install dependencies.
 
-# Usage
+### Usage
 Within **repo-pro** directory
 - Run ```npm start``` to launch server.
 - Run ```npm test``` to launch test suite.
@@ -27,12 +27,12 @@ Within **repo-pro** directory
 
 ## Future Features
 - Improve on responsiveness - ran out of time.
-- Sort button to order repos by date or alphabetically
+- Sort button to order repos by date or alphabetically.
 
 ## Wins & Challenges
-# Wins
-- Functionality working
+### Wins
+- All functionality working as intended.
 
-# Challenges
-- Testing with React
+### Challenges
+- Testing with React.
 - Styling - not enough time to fully do this.
