@@ -11,6 +11,11 @@
     text-align: center;
 }
 
+#number {
+    text-align: center;
+    color: rgb(14, 140, 115);
+}
+
 .repo-data {
     padding: 10px 16px;
     margin: 20px 0;

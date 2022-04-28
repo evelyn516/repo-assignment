@@ -10,6 +10,7 @@ const Result = ({ username }) => {
         <div className="repo-data">
             { isLoading && <div>Loading...</div>}
             { repos && <h1 id="username">User: {username}</h1>}
+            { repos && <h3 id="number">Number of repos: {repos.length}</h3>}
             { repos && <h2 id="click">Click to view a repo</h2>}
             { repos && repos.map((result) => (
               
