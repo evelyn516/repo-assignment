@@ -27,12 +27,12 @@ Within **repo-pro** directory
 
 ## Future Features
 - Improve on responsiveness - ran out of time.
-- Sort button to order repos by date or alphabetically
+- Sort button to order repos by date or alphabetically.
 
 ## Wins & Challenges
 # Wins
-- Functionality working
+- All functionality working as intended.
 
 # Challenges
-- Testing with React
+- Testing with React.
 - Styling - not enough time to fully do this.
