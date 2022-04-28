@@ -28,6 +28,7 @@ Within **repo-pro** directory
 ## Future Features
 - Improve on responsiveness - ran out of time.
 - Sort button to order repos by date or alphabetically.
+- Add Dark Mode functionality.
 
 ## Wins & Challenges
 ### Wins
